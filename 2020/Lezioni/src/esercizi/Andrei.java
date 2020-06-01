@@ -85,7 +85,7 @@ public class Andrei {
 
         @Override
         public PositionedPolyhedron at(Point origin) {
-            return new PositionedPolyhedron() {
+            final PositionedPolyhedron points = new PositionedPolyhedron() {
                 @Override
                 public Point origin() {
                     return origin;
@@ -98,6 +98,7 @@ public class Andrei {
                     return Arrays.asList(vertici).iterator();
                 }
             };
+            return points;
         }
 
     }

@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b31aaf0-d5e7-48f6-9f08-402a05824796" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/esercizi/Andrei.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/esercizi/EsercizioCache.java" afterDir="false" />
+    <list default="true" id="f82fa0a2-ebe1-4a6c-8180-3198aa988209" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/esercizi/ScrittoGennaio2020.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/esercizi/ScrittoGennaio2020.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/unive/dais/po2/myjdk/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/unive/dais/po2/myjdk/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/unive/dais/po2/zoo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/unive/dais/po2/zoo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lezioni.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lezioni.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lezioni/META-INF/Lezioni.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/esercizi/Andrei.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/esercizi/Andrei.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,8 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../LabCloud/RMITest1" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -58,11 +58,10 @@
       <recent name="it.unive.dais.po2.myjdk" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Cache">
+  <component name="RunManager" selected="Application.TestMap">
     <configuration name="Andrei" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="esercizi.Andrei" />
       <module name="Lezioni" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -70,7 +69,6 @@
     <configuration name="Cache" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="esercizi.EsercizioCache" />
       <module name="Lezioni" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -78,7 +76,6 @@
     <configuration name="ConsumerProducer" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="it.unive.dais.po2.patterns.ConsumerProducer" />
       <module name="Lezioni" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -86,7 +83,6 @@
     <configuration name="Es_SkipIterator" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="esercizi.Es_SkipIterator" />
       <module name="Lezioni" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,7 +90,6 @@
     <configuration name="ForEach" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="it.unive.dais.po2.other.ForEachTest" />
       <module name="Lezioni" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,7 +97,6 @@
     <configuration name="IterableTree" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="esercizi.ScrittoGiugno2019" />
       <module name="Lezioni" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,7 +104,19 @@
     <configuration name="IteratorTest" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="it.unive.dais.po2.other.IteratorTest" />
       <module name="Lezioni" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PO1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="esercizi.PO1" />
+      <module name="Lezioni" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="esercizi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,7 +124,6 @@
     <configuration name="ProvaIterator" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="esercizi.ProvaIterator" />
       <module name="Lezioni" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,7 +131,6 @@
     <configuration name="RandomIter" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="esercizi.Es_RandomIterator" />
       <module name="Lezioni" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,7 +138,19 @@
     <configuration name="RevTest" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="it.unive.dais.po2.other.RevTest" />
       <module name="Lezioni" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScittoGennaio2019__Pool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="esercizi.ScittoGennaio2019__Pool" />
+      <module name="Lezioni" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="esercizi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,7 +158,6 @@
     <configuration name="SortingTest" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="it.unive.dais.po2.other.SortingTest" />
       <module name="Lezioni" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,7 +165,6 @@
     <configuration name="TestList" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="it.unive.dais.po2.myjdk.TestList" />
       <module name="Lezioni" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -158,7 +172,6 @@
     <configuration name="TestMap" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="it.unive.dais.po2.myjdk.TestMap" />
       <module name="Lezioni" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -166,7 +179,6 @@
     <configuration name="Thread" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="it.unive.dais.po2.threading.ThreadCreationMain" />
       <module name="Lezioni" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,15 +187,8 @@
       <option name="MAIN_CLASS_NAME" value="it.unive.dais.po2.zoo.Main" />
       <module name="Lezioni" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -204,9 +209,13 @@
       <item itemvalue="Application.TestMap" />
       <item itemvalue="Application.Thread" />
       <item itemvalue="Application.Zoo" />
+      <item itemvalue="Application.PO1" />
+      <item itemvalue="Application.ScittoGennaio2019__Pool" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ScittoGennaio2019__Pool" />
+        <item itemvalue="Application.PO1" />
         <item itemvalue="Application.Zoo" />
       </list>
     </recent_temporary>
@@ -237,6 +246,10 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="689" y="363" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1589294035319" />
+    <state x="808" y="443" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1591010136288">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="808" y="443" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/1920.24.1536.840/0.30.1920.1050@0.30.1920.1050" timestamp="1591010136288" />
     <state x="640" y="307" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1589273786106">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -265,26 +278,31 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="609" y="174" key="CommitChangelistDialog2/0.0.1920.1160@0.0.1920.1160" timestamp="1586877875652" />
-    <state x="740" y="334" key="FileChooserDialogImpl" timestamp="1584617247364">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state x="740" y="332" key="FileChooserDialogImpl" timestamp="1591010207262">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="740" y="334" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1584617247364" />
-    <state width="1877" height="382" key="GridCell.Tab.0.bottom" timestamp="1589298443509">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state x="740" y="332" key="FileChooserDialogImpl/1920.24.1536.840/0.30.1920.1050@0.30.1920.1050" timestamp="1591010207262" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1591011140644">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1877" height="382" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1589298443509" />
-    <state width="1877" height="382" key="GridCell.Tab.0.center" timestamp="1589298443509">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/1920.24.1536.840/0.30.1920.1050@0.30.1920.1050" timestamp="1591011140644" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1591011140644">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1877" height="382" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1589298443509" />
-    <state width="1877" height="382" key="GridCell.Tab.0.left" timestamp="1589298443509">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center/1920.24.1536.840/0.30.1920.1050@0.30.1920.1050" timestamp="1591011140644" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1591011140644">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1877" height="382" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1589298443509" />
-    <state width="1877" height="382" key="GridCell.Tab.0.right" timestamp="1589298443509">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left/1920.24.1536.840/0.30.1920.1050@0.30.1920.1050" timestamp="1591011140644" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1591011140644">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1877" height="382" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1589298443509" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right/1920.24.1536.840/0.30.1920.1050@0.30.1920.1050" timestamp="1591011140644" />
     <state width="1877" height="386" key="GridCell.Tab.1.bottom" timestamp="1589295417814">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -301,18 +319,20 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1877" height="386" key="GridCell.Tab.1.right/0.0.1920.1160@0.0.1920.1160" timestamp="1589295417814" />
-    <state x="461" y="222" key="SettingsEditor" timestamp="1588950830994">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state x="461" y="228" key="SettingsEditor" timestamp="1591010831878">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="461" y="222" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1588950830994" />
+    <state x="461" y="228" key="SettingsEditor/1920.24.1536.840/0.30.1920.1050@0.30.1920.1050" timestamp="1591010831878" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1589295096358">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1160@0.0.1920.1160" timestamp="1589295096358" />
-    <state x="664" y="473" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1584352964962">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state x="664" y="458" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1591010222820">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="664" y="473" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1160@0.0.1920.1160" timestamp="1584352964962" />
+    <state x="664" y="458" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/1920.24.1536.840/0.30.1920.1050@0.30.1920.1050" timestamp="1591010222820" />
     <state x="536" y="315" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1584463463386">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
