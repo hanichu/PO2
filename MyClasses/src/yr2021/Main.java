@@ -31,7 +31,7 @@ public class Main {
         Dog lilly = new Dog();
         fido.eat(lilly);        // SUBSUMPTION
 
-        lilly.marry(fido);      // non compila perché fido : Animal
+        //lilly.marry(fido);      // non compila perché fido : Animal
 
     }
 
