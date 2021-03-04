@@ -1,9 +1,5 @@
-package it.unive.dais.po2.aa2020_21.generics;
 
-import java.util.ArrayList;
-import java.util.Collection;
-
-public class Zoo {
+public class Main {
 
     public static class Animal {
         protected int weight;
@@ -60,7 +56,6 @@ public class Zoo {
         return new Dog();
     }
 
-
     public static void main(String[] args) {
 
         Animal fido = makeAnimal();
@@ -75,11 +70,9 @@ public class Zoo {
         Elf tara = new Elf();
 
         john.marry(tara);
+        tara.marry(fido);
 
 
-        Collection<Dog> dogs = new ArrayList<Dog>();
-        dogs.add(lilly);
-        dogs.add(new Dog());
     }
 
 }
