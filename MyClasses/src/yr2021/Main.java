@@ -30,6 +30,7 @@ public class Main {
         Animal fido = makeAnimal();
         Dog lilly = new Dog();
         fido.eat(lilly);        // SUBSUMPTION
+        System.out.println("Ciao");
 
         //lilly.marry(fido);      // non compila perché fido : Animal
 

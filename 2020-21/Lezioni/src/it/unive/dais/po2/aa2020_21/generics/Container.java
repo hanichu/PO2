@@ -27,7 +27,8 @@ public class Container {
         }
     }
 
-    public static class MyPolyList {
+    public static class
+    MyPolyList {
 
         private final Object[] a;
         private int cnt;
