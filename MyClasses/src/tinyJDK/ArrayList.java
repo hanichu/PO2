@@ -4,76 +4,88 @@ import java.util.Arrays;
 
 public class ArrayList<T> implements List<T> {
 
-    private Object[] container = new Object[0];
+    private Object[] container = new Object[10];
+    int size = 0;
 
     @Override
     public Iterator<T> iterator() {
 
         return new Iterator<T>() {
+            int pos = 0;
             @Override
             public boolean hasNext() {
-                return false;
+                return pos < size();
             }
 
             @Override
             public T next() {
-                return null;
+                return get(pos++);
+            }
+        };
+    }
+
+    public Iterator<T> iteratorOddPos() {
+
+        return new Iterator<T>() {
+            int pos = 1;
+            @Override
+            public boolean hasNext() {
+                return pos < size();
+            }
+
+            @Override
+            public T next() {
+                T x = get(pos);
+                pos += 2;
+                return x;
             }
         };
     }
 
     @Override
     public boolean add(T x) {
-        int clength = container.length;
-        Object[] newContainer = new Object[clength+1];
-        for (int i=0; i < clength; i++){
-            newContainer[i] = container[i];
+        if(size >= container.length){
+            container = Arrays.copyOf(container, container.length*2);
         }
-        newContainer[clength] = x;
-        container = newContainer;
+        container[size++] = x;
         return true;
     }
 
     @Override
-    public boolean contains(T x) {
-        return false;
+    public int contains(T x) {
+        for (int i = 0; i < size; i++) {
+            if(container[i].equals(x)) return i;
+        }
+        return -1;
     }
 
     @Override
     public int size() {
-        return 0;
+        return size;
     }
 
     @Override
     public boolean remove(T x) {
-        int clength = container.length;
-        for (int i=0; i < clength; i++){
-            if(container[i].equals(x)){
-                Object[] newContainer = new Object[clength-1];
-                for (int j = 0, z = 0; j < newContainer.length; ++j, ++z){
-                    if(z==i){
-                        ++z;
-                        newContainer[j] = container[z];
-                    }else{
-                        newContainer[j] = container[z];
-                    }
-                }
-                container=newContainer;
-                return true;
-            }
+        int pos = contains(x);
+        if(pos>=0){
+            System.arraycopy(container, pos+1, container, pos, size()-pos-1);
+            container[--size] = null;
+            return true;
         }
         return false;
     }
 
     @Override
-    public T get(int index) {
-        return null;
+    public T get(int index){
+        if(index>=size) throw new RuntimeException("Index too big");
+        return (T) container[index];
     }
 
     @Override
     public String toString() {
         return "ArrayList{" +
                 "container=" + Arrays.toString(container) +
+                ", size=" + size() +
                 '}';
     }
 }
