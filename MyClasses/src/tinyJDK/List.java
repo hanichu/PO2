@@ -5,5 +5,5 @@ public interface List<T> extends Collection<T> {
     int contains(T x);
     int size();
     boolean remove(T x);
-    T get(int index) throws OutOfBoundException;
+    T get(int index);
 }
