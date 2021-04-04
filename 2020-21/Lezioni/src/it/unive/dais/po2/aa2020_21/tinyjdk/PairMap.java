@@ -30,13 +30,13 @@ public class PairMap<K, V> implements Map<K, V> {
     }
 
     @Override
-    public V get(@NotNull K key) throws KeyNotFoundException {
+    public V get(@NotNull K key) throws NotFoundException {
         Iterator<Pair<K, V>> it = iterator();   // TODO usare search()
         while (it.hasNext()) {
             Pair<K, V> p = it.next();
             if (p.first.equals(key)) return p.second;
         }
-        throw new KeyNotFoundException(key);
+        throw new NotFoundException(key);
     }
 
     @Override

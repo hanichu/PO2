@@ -31,13 +31,13 @@ public class HashMap<K, V> implements Map<K, V> {
     }
 
     @Override
-    public @Nullable V get(@NotNull K key) throws KeyNotFoundException {
+    public @Nullable V get(@NotNull K key) throws NotFoundException {
         LinkedList<Pair<K, V>> l = a.get(indexOf(key));
         for (Pair<K, V> p : l) {
             if (p.first.equals(key))
                 return p.second;
         }
-        throw new KeyNotFoundException("HashMap.get()");
+        throw new NotFoundException("HashMap.get()");
     }
 
     @Override
